@@ -1,0 +1,8 @@
+\n : new line
+\\ : to print a '\'
+\' or \" : to print ' without closing the print " " or ' ' [that is to tell python that this is not a real double/single quote]
+\t : tab
+\r : Carriage Return [means it jumps the cursor to the leftmost of the current line] (according to rules, \r\n must always be used not \n\r)
+\a : gives a bell sound BEL
+\b: takes the cursor a step backwards BS
+\f: formfeed FF
