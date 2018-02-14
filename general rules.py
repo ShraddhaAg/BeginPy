@@ -6,6 +6,8 @@
 
 #4. "" is same as '' in python for strings. There's no distinction for character and string. Also """ """ is used to print whatever is in them as it is. [inclusing new line wihtout using \n]
 
-#5. Comments are given using '#'. Multiple lines of code are given by ''' ''' (if used properly with proper indentation)
+#5. Comments are given using '#'. Multiple lines of comments are given by ''' ''' (if used properly with proper indentation) [This is called documentation comments]
 
 #6. after usinf raw_input you can type cast the value to aythin using the proper function for it. Like for integers, we can use [i = int(raw_input())]
+
+#7. Python supports short - circuiting

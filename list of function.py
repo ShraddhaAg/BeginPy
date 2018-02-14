@@ -17,3 +17,20 @@ raw_input([prompt]) # will just take input from user and return the input as of 
 
 open()  # built-in function
         # used to open files, takes parameter: filename and returns the file as an object
+
+splitwords(<string>)
+
+sorted(list) : Sorts the list
+
+pop(index number) :
+
+range(start, stop, step): inclusive of start
+                        #doesn't include stop (as it is made in mind to iterate the list which starts with 0 index value, and doesn't include the last length index)
+                            step gives the difference betwwen the two, can be positive or negative integer.
+
+
+string name.append(<element to be added>): adds a single element to the last
+                      much slower than extend for longer lists and tuples otherwise append is faster for small lists
+                      a string can be added to a list at the end using this but not extend
+string name.extend(<elements to be added>): adds all the elemnts given to the end of the string
+                                            faster as it is implemented in c
